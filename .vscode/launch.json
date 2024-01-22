@@ -1,0 +1,36 @@
+{
+    "configurations": [
+
+    {
+        "name": "Launch Program",
+        "program": "${workspaceFolder}/app.js",
+        "request": "launch",
+        "skipFiles": [
+            "<node_internals>/**"
+        ],
+        "type": "node"
+    },
+        {
+            "type": "java",
+            "name": "In",
+            "request": "launch",
+            "mainClass": "In",
+            "projectName": "hw05-yuval-benzvi_cf7c9d0a"
+        },
+        {
+            "type": "java",
+            "name": "StdDraw",
+            "request": "launch",
+            "mainClass": "StdDraw",
+            "projectName": "hw05-yuval-benzvi_cf7c9d0a"
+        },
+        {
+            "type": "java",
+            "name": "GameOfLife",
+            "request": "launch",
+            "mainClass": "GameOfLife",
+            "projectName": "hw05-yuval-benzvi_cf7c9d0a",
+            "args": "glider.dat"
+        },
+    ]
+}
